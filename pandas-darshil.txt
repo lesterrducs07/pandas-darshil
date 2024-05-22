@@ -1,0 +1,10 @@
+DATA STRUCTURES
+type        | ordered | mutable | constructor | example |
+list        | yes     | yes     |  []         | [5.7, 4, 'yes', 5.7]
+tuple       | yes     | no      |  ()         | (5.7, 4, 'yes', 5.7)
+set         | no      | yes     |  {}         | {5.7, 4, 'yes'}
+dictionary  | no      | yes     |  {}         | {'Jun': 75, 'Jul':89}
+
+.values = 
+.index
+.shape
