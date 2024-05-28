@@ -1,0 +1,18 @@
+import pandas as pd - to import the pandas(panel datas) in the python and create pd as alias of pandas
+pd.Series()     - to create a 1D data structures
+pd.DataFrame()  - to create a 2D data structures(tabular) can have rows and columns
+.values         - to show the values of the data structure ex. array([10, 20, 30])
+.index          - to show the index(row) of the data structure ex. RangeIndex(start=0, stop=3, step=1)
+pd.DataFrame(index = name, columns = name) - create data frame and assign rows and column to the data frame
+.shape          - to see the total no. of columns and rows ex.(4,3)
+pd.read_csv('path/to/your/file/file.csv')
+.head()         - to show the first five rows and column of the table, you can pass value inside () so it prints more
+.tail()         - to show the last five rows and columns of the table      ''
+name['name of column']= pd.to_datetime(name['name of column']) - conver date and time to timestamp
+.info()
+.unique()       - find all unique values in the data
+.nunique()      - exclude NA values and always returns an integer value
+.value_counts() - find all unique values and their counts in the column. exludes NA values
+[0:10:2]        - slicing
+.loc
+.iloc
